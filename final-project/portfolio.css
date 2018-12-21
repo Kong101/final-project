@@ -1,0 +1,189 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+	width: 100%;
+	height: auto;
+}
+html {
+	margin: 0;
+	padding: 0;
+}
+#showcase {
+	background-image: url(../final-project/images/road2.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+#mid {
+	text-align: center;
+	margin-top: 200px;
+	font-size: 50px;
+}
+#mid1 {
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px min-height: 70px;
+	border-bottom: black 3px solid;
+}
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li {
+	float: left;
+	display: inline-block;
+	padding: 0 20px 0 20px;
+}
+header #branding {
+	float: left;
+}
+header #braning h1 {
+	margin: 0;
+}
+header nav {
+	float: right;
+	margin-top: 30px;
+}
+header .highlight, header .current a {
+	color: black;
+	font-weight: bold;
+}
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+}
+.bold {
+	font-weight: bold;
+}
+.gallery {
+	margin: 7.5em;
+}
+.gall-item {
+	margin: 0px;
+	position: relative;
+	float: left;
+}
+.gall-item img {
+	display: block;
+}
+.page-title {
+	font-size: 40px;
+}
+.image {
+	float: right;
+	margin-right: 3px;
+}
+.light {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+.off {
+	margin: 100px;
+}
+.contact-title {
+	margin-top: 100px;
+	color: black;
+	text-transform: uppercase;
+}
+.contact-title h1 {
+	font-size: 32px;
+	line-height: 10px;
+	text-align: center;
+}
+.contact-title h2 {
+	font-size: 16px;
+	text-decoration: none;
+}
+form {
+	margin-top: 50px;
+	text-align: center;
+}
+.form-control {
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: black;
+	font-size: 18px;
+	margin-bottom: 16px;
+	width: 50%;
+	margin: 0 auto;
+}
+input {
+	height: 45px;
+}
+form .submit {
+	background: gray;
+	border-color: transparent;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px margin-top: 30px;
+	width: fit-content;
+	margin: 20px auto;
+	padding-top: 5px;
+}
+footer {
+	text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+	body {
+		margin: 0;
+		padding: 0;
+		background-image: none;
+	}
+	footer {
+		margin: 0;
+	}
+	.box {
+		margin-left: 0;
+	}
+	.image {
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	/*Media queries for smartphones go here */
+	#showcase{
+		background-image: none;
+		height: 20vh;
+	}
+	#mid{
+		color: black;	
+	}	
+	.gallery{
+		margin-top: 100%;
+	}
+	.image{
+		margin-right: 45%;
+	}
+}
